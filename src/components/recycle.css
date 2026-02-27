@@ -1,0 +1,157 @@
+nav {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;              
+    background-color: red;          
+    padding: 20px;
+}
+
+.Left-Info {
+    display: flex;                    /* عشان الصورة والنص جنب بعض */
+    align-items: center;
+    gap: 20px;                         /* مسافة بين الصورة والنص */
+}
+
+#MyImage {
+    width: 120px;            
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+#contactInfoColor {
+    color: white;
+    margin: 0;               /* أزل المسافات الزايدة */
+}
+
+.Right-Info {
+    display: flex;
+    gap: 20px;               /* مسافة بين الروابط */
+}
+
+.Right-Info a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Right-Info a:hover {
+    color: rgb(227, 118, 118);  /* لون تفاعل */
+    text-decoration: underline;
+}
+
+#Skills {
+    border: 3px solid rgb(64, 23, 23);    /* حدود بلون خلفية الـ Left-Info */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px 20px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+#Skills legend{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.HarvardCourses {
+    display: flex;
+    flex-direction: row-reverse;    /* صورة يمين */
+    align-items: center;
+    gap: 50px;
+}
+
+#HarvardImage {
+    width: 150px;                    /* حجم مناسب */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.HarvardCourses p {
+    flex: 1;                          /* النص ياخد المساحة */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+#IBMlogo{
+    width: 150px;                    /* حجم مناسب */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.IBM_courses{
+    display: flex;
+    flex-direction: row-reverse;    /* صورة يمين */
+    align-items: center;
+    gap: 50px;
+}
+
+.IBM_courses p {
+    flex: 1;                          /* النص ياخد المساحة */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+#MiNote{
+    font-family: "Bold";  /*تعديل الكلمة*/
+    color: black;
+}
+
+#MiNote:hover{
+    color: rgb(227, 118, 118)
+}
+
+#MiNoteImage{
+    width: 200px; 
+    height: 200px;                   /* حجم مناسب */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.normalMiNote{
+    display: flex;
+    flex-direction: row-reverse;    /* صورة يمين */
+    align-items: center;
+    gap: 50px;
+}
+
+.normalMiNote p{
+    flex: 1;                          /* النص ياخد المساحة */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+#EnhancedMiNote{
+    font-family: "Bold";  /*تعديل الكلمة*/
+    color: black;
+}
+
+#EnhancedMiNote:hover{
+    color: rgb(227, 118, 118)
+}
+
+#EnhancedMiNoteImage{
+    width: 200px; 
+    height: 200px;                   /* حجم مناسب */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.EnhancedMiNote{
+    display: flex;
+    flex-direction: row-reverse;    /* صورة يمين */
+    align-items: center;
+    gap: 50px;
+}
+
+.EnhancedMiNote p{
+    flex: 1;                          /* النص ياخد المساحة */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+#building{
+    font-size: 1.1rem;
+}

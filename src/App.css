@@ -1,0 +1,291 @@
+#root {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.AbuZhangLogo{
+    width: 120px;            
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.AbuZhangNavBar{
+    display: flex;          
+    align-items: center; 
+    gap: 20px;
+    background-color: rgb(165, 0, 0);    
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.AbuZhangTitle{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+.AbuZhangSig{
+  font-family: cursive;
+}
+
+.MenuTable{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+ legend{
+  color: brown;
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+h3{
+  text-align: left;
+}
+
+.SpecialsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.AbuZhangSpecial{
+  border: 3px solid rgb(64, 23, 23); 
+  border-radius: 15px;
+  padding: 20px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+  text-align: left;
+}
+
+.ZhangZhangCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.ZhangZhang{
+    width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.PoizzaCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.Poizza{
+    width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.MengoCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.Mengo{
+    width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.MainTableContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.AddingDish{
+  font-size: 30px;
+  width: 120px;
+  height: 120px;
+  border-style:dashed;
+  background-color: #f3f3cd;
+  color: black;
+}
+
+.NewMainTableCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.NewMainTable{
+  width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.SnacksContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.SnacksTableCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.NewSnacksTable{
+  width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.SweetsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.SweetsTableCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.NewSweetsTable{
+  width: 120px;            
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;               
+    display: block;
+}
+
+.CommentSection{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+  text-align: left;
+}
+
+.CommentsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.LauraComment{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.HaithamComment{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.ChineseComment{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.AddingComment{
+  font-size: 30px;
+  width: 120px;
+  height: 120px;
+  border-style:dashed;
+  background-color: #f3f3cd;
+  color: black;
+}
+
+.CommentCard{
+  border: 3px solid rgb(64, 23, 23);    
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 20px;
+  background-color: #f3f3cd;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+
+.Disclaimer{
+    display: flex;          
+    align-items: center; 
+    gap: 20px;
+    background-color: rgb(165, 0, 0);    
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
