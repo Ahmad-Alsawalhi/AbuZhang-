@@ -234,7 +234,7 @@ const deleteComment = (id) => {
 
 <footer className='Disclaimer'>
   <h1>Disclaimer</h1>
-  <p>This page was only made for educational purposes only.<br />Any names, titles, images, people, are fake and has nothing to do with the real life</p>
+  <p>This page was made for educational purposes only.<br />Any names, titles, images, people, are fake and has nothing to do with the real life</p>
 </footer>
     </>
   );
