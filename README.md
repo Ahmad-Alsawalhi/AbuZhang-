@@ -40,7 +40,7 @@ The main goal was to apply core React concepts in a real, practical project.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Ahmad-Alsawalhi/AbuZhang.git
+   cd AbuZhang 
    npm install
    npm run dev
